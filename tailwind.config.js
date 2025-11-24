@@ -8,6 +8,10 @@ module.exports = {
       colors: {
         neon: "#B6FF39",
       },
+      screens: {
+        '3xl': '1920px',
+        '4xl': '2560px',   // add this
+      },
     },
   },
   plugins: [],

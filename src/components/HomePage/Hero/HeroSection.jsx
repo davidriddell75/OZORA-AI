@@ -95,7 +95,7 @@ export default function HeroSection({ openWallet: externalOpenWallet, setOpenWal
         </div>
       )}
 
-      <div className="hidden absolute lg:block left-12 top-[550px] z-20">
+      <div className="hidden absolute 3xl:block left-12 top-[550px] z-20">
         <PromoLeftCard />
       </div>
 

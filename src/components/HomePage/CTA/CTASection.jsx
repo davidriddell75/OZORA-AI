@@ -31,13 +31,13 @@ export default function CtaSection() {
       {/* Floating Left Coin */}
       <img
         src="/cta/token-left.png"
-        className="absolute left-5 top-10 w-36 animate-float-slow"
+        className="hidden absolute lg:block left-5 top-10 w-36 animate-float-slow"
       />
 
       {/* Floating Right Coin */}
       <img
         src="/cta/token-right.png"
-        className="absolute right-5 bottom-5 w-40 animate-float-slow"
+        className="hidden absolute lg:block right-5 bottom-5 w-40 animate-float-slow"
       />
 
       {/* Main CTA Box */}
