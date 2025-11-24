@@ -141,6 +141,11 @@ a:hover {
     animation: marquee 36s linear infinite;
   }
 
+  .animate-marquee-hero {
+    display: inline-flex;
+    animation: marquee var(--speed, 18s) linear infinite;
+  }
+
   @keyframes marquee {
     0% {
       transform: translateX(0);

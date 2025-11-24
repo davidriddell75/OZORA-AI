@@ -24,6 +24,15 @@ import {
     { code: "DE", name: "German" },
     { code: "AR", name: "Arabic" },
     { code: "JA", name: "Japanese" },
+    { code: "ES", name: "Spanish" },
+    { code: "HI", name: "Hindi" },
+    { code: "BN", name: "Bengali" },
+    { code: "PT", name: "Portuguese" },
+    { code: "RU", name: "Russian" },
+    { code: "VI", name: "Vietnamese" },
+    { code: "MR", name: "Marathi" },
+    { code: "TE", name: "Telugu" },
+    { code: "TR", name: "Turkish" },  
   ];
 
   // Close dropdowns when clicking outside

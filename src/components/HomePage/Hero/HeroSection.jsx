@@ -9,6 +9,22 @@ export default function HeroSection({ openWallet: externalOpenWallet, setOpenWal
   const openWallet = externalOpenWallet !== undefined ? externalOpenWallet : internalOpenWallet;
   const setOpenWallet = externalSetOpenWallet || setInternalOpenWallet;
 
+  const items = [
+    { name: "Coin Pedia", icon: "/hero/coinpedia.svg" },
+    { name: "Analytics Insight", icon: "/hero/analytics.svg" },
+    { name: "CryptoDaily", icon: "/hero/cryptodaily.svg" },
+    { name: "Coinspeaker", icon: "/hero/coinspeaker.png" },
+    { name: "COINCENTERAL", icon: "/hero/coincentral.png" },
+    { name: "bitcoin", icon: "/hero/bitcoin.svg" },
+    { name: "THENEWSCRYPTO", icon: "/hero/thenewscrypto.svg" },
+    { name: "FINBOLD", icon: "/hero/finbold.svg" },
+    { name: "ThePrint", icon: "/hero/theprint.svg" },
+    { name: "CoinMarketCap", icon: "/hero/coinmarketcap.svg" },
+    { name: "TradeBrains", icon: "/hero/tradebrains.svg" },
+  ];
+
+  const marqueeItems = [...items, ...items];
+
   return (
     <>
       {/* ===============================
@@ -185,6 +201,23 @@ export default function HeroSection({ openWallet: externalOpenWallet, setOpenWal
             {" "}and{" "}
             <a href="#" className="underline hover:text-[var(--accent-mint)] transition-colors">Disclaimers</a>.
           </p>
+
+          <div className="overflow-hidden relative w-full mt-10">
+            <div className="flex gap-4 marquee-track w-max animate-marquee-hero whitespace-nowrap">
+              {marqueeItems.map((item, i) => (
+                <div
+                  key={i}
+                  className="
+                    flex items-center gap-2
+                    px-5 py-2
+                    flex-shrink-0
+                  "
+                >
+                  <img src={item.icon} alt={item.name} className="w-auto h-8 object-contain select-none" />
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
