@@ -123,7 +123,7 @@ export default function Tokenomics() {
           </div>
 
           {/* Bottom card */}
-          <div className="hidden absolute lg:block bottom-[-60px] glass-panel px-6 py-4 rounded-xl border border-white/10 w-64">
+          <div className="block lg:hidden glass-panel px-6 py-4 rounded-xl border border-white/10 w-64 mt-8">
             <p className="text-xl text-white">Future Reserve</p>
             <p className="text-[var(--accent-mint)] font-bold text-2xl">20%</p>
             <div className="h-[3px] bg-white/10 mt-2">
