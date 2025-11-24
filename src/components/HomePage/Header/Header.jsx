@@ -52,12 +52,12 @@ import {
           {/* LOGO */}
           <a href="/presale">
             <div className="flex items-center gap-3">
-              <img src="/OZORA AI logo (2).png" alt="OZAK AI" className="h-8 w-auto" />
+              <img src="/ozora-ai-logo.png" alt="OZORA AI" className="h-8 md:h-12 lg:h-14 w-auto select-none" />
             </div>
           </a>
 
           {/* DESKTOP NAV */}
-          <nav className="hidden md:flex items-center gap-8 text-sm text-[#c9f1ea]">
+          <nav className="hidden md:flex items-center gap-8 text-xl text-[#c9f1ea]">
 
             <a 
               href="/presale" 

@@ -13,7 +13,7 @@ export default function Footer() {
 
           {/* ---- NEWSLETTER ---- */}
           <div>
-            <img src="/OZORA AI logo (1).png" alt="Ozora AI" className="w-32 mb-6" />
+            <img src="/ozora-ai-logo.png" alt="Ozora AI" className="mb-6 h-8 md:h-12 lg:h-14 w-auto select-none" />
 
             <p className="text-[#b9e5dd] leading-relaxed mb-6">
               Subscribe to our newsletter to get the latest updates on everything Ozak AI
